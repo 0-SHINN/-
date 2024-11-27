@@ -4,3 +4,4 @@ SELECT DATE_TRUNC(first_join_date, MONTH) AS month,
 FROM `customers`
 GROUP BY month
 ORDER BY month
+
